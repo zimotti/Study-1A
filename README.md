@@ -1,1 +1,1 @@
-Zimotti, G. Local language models for Spanish L2 writing assessment: Human baselines, RAG, and fine-tuning. Journal of Computers in Education<img width="468" height="25" alt="image" src="https://github.com/user-attachments/assets/ec14189c-76cd-408e-a3ab-f06d4e3522ae" />
+Zimotti, G. Local language models for Spanish L2 writing assessment: Human baselines, RAG, and fine-tuning. Journal of Computers in Education.
