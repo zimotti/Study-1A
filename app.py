@@ -7,7 +7,6 @@ from ollama_utils import run_ollama
 
 
 def run_ollama_with_retries(prompt, model, temperature, max_tokens, retries, delay):
-    """Call run_ollama with retries if it fails or returns an empty response."""
     for attempt in range(1, retries + 1):
         try:
             response = run_ollama(
@@ -28,7 +27,6 @@ def run_ollama_with_retries(prompt, model, temperature, max_tokens, retries, del
 
 
 def extract_json(response, key):
-    """Extract a specific key from a JSON object in the LLM response."""
     if not isinstance(response, str):
         response = str(response) if response else ""
 
